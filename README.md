@@ -20,7 +20,7 @@ etc
 ## Steps to run locally 
 
  1. Clone repository
- 2. Rename .env.template file to .env and load environment variables with values
+ 2. Rename .env.template file to .env and load environment variables with values (Example VITE_API_URL=http://localhost:3000)
  3. Install dependencies
     ```sh
     yarn
