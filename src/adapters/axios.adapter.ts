@@ -3,7 +3,7 @@ import axios, { AxiosResponse } from "axios";
 import { HttpAdapter } from "./interfaces/http.interface";
 
 const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_API_URL
+    baseURL: `${import.meta.env.VITE_API_URL}/api/1.0`
 })
 
 export const AxiosAdapter: HttpAdapter = {
